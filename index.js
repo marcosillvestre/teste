@@ -7,8 +7,7 @@ app.get("/", (req, res) => {
     return res.json("hello world")
 })
 
-app.get("/abcd", (req, res) => {
-
+app.get("/flex", (req, res) => {
     return res.json("é so la mesmo")
 })
 
